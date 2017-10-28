@@ -1,6 +1,6 @@
 # Fit Roulette
 
-A React pharmacy picker web app that posts to an mock external API. See the app in action [live on heroku here](https://pharmacy-picker.herokuapp.com/).
+A mobile first website that displays a random workout for you to do. [live on heroku here](https://fitroulette-web.herokuapp.com/).
 
 ## Getting Started
 
