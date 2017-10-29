@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 const TopBar = () => (
   <Navbar inverse collapseOnSelect>
@@ -12,20 +12,10 @@ const TopBar = () => (
     <Navbar.Collapse>
       <Nav>
         <NavItem eventKey={1} href="#">
-          Link
-        </NavItem>
-        <NavItem eventKey={2} href="#">
-          Link
+          Take a Spin
         </NavItem>
       </Nav>
-      <Nav pullRight>
-        <NavItem eventKey={1} href="#">
-          Link Right
-        </NavItem>
-        <NavItem eventKey={2} href="#">
-          Link Right
-        </NavItem>
-      </Nav>
+      <Nav pullRight />
     </Navbar.Collapse>
   </Navbar>
 );
