@@ -1,0 +1,20 @@
+canvas {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  max-width: 400px !important;
+}
+.timer-wrapper {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+canvas:first-child {
+  display: none;
+}
