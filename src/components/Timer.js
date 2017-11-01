@@ -9,6 +9,7 @@ class Timer extends Component {
 
   handleComplete = () => {
     this.props.restartTimer();
+    this.props.nextExercise();
   };
 
   render() {
