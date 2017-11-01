@@ -6,7 +6,7 @@ export default function(state = { all: {}, random: 0 }, action) {
       return { ...state, all: action.payload.data };
 
     case NEXT_EXERCISE:
-      return { ...state, random: Math.round(Math.random() * state.all.length) + 1 };
+      return { ...state, random: Math.floor(Math.random() * state.all.length) };
 
     default:
       return state;
