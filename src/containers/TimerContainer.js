@@ -4,8 +4,8 @@ import { bindActionCreators } from 'redux';
 
 import { togglePause, restartTimer } from '../actions';
 
-function mapStateToProps(state) {
-  return { timer: state.timer };
+function mapStateToProps({ timer }) {
+  return { timer };
 }
 
 const mapDispatchToProps = dispatch => bindActionCreators({ togglePause, restartTimer }, dispatch);
