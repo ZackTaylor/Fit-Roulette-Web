@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { PageHeader, Image } from 'react-bootstrap';
 
 import './Exercise.css';
 
@@ -18,8 +17,8 @@ class Exercise extends Component {
     }
     return (
       <div className="text-center container">
-        <PageHeader>{name}</PageHeader>
-        <Image src={image} alt={name} responsive />
+        <h1 className="display-1">{name}</h1>
+        <img src={image} alt={name} />
       </div>
     );
   }
