@@ -19,7 +19,7 @@ class Exercise extends Component {
     return (
       <div className="text-center container">
         <PageHeader>{name}</PageHeader>
-        <Image src={image} responsive />
+        <Image src={image} alt={name} responsive />
       </div>
     );
   }
