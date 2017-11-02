@@ -5,7 +5,7 @@ canvas {
   position: relative;
   left: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 10px;
   max-width: 400px !important;
 }
 .timer-wrapper {
